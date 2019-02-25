@@ -3,6 +3,11 @@ class Artist
   attr_accessor :name, :songs
   @@all = []
 
+  def all 
+    @@all
+  end
+  
+    
   def initialize(name)
     @name = name
     @songs = []
@@ -21,6 +26,10 @@ class Artist
    song = Song.new(name)
    song.artist = self
    @songs << song
+ end
+
+ def self.song_count
+   self.all.count
  end
 
 
