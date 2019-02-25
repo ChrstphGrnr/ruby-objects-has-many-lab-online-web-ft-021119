@@ -18,8 +18,8 @@ class Song
 
 
   def artist_name
-    # binding.pry
-    self.artist.name || nil
+    binding.pry
+    self.artist.name 
     # binding.pry
   end
 end
