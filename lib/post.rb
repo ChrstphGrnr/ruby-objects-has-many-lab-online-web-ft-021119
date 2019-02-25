@@ -8,6 +8,7 @@ class Post
 
   def initialize(title)
     @title = title
+    binding.pry
     self.all << self.new(title)
   end
 
