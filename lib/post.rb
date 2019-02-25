@@ -10,7 +10,7 @@ class Post
   def initialize(title)
     @title = title
     binding.pry
-    @@all << self.new(title)
+    @@all << self
   end
 
 end
