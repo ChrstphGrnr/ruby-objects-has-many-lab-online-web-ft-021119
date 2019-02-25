@@ -6,7 +6,9 @@ class Post
     @all
   end
 
-  def initialize
+  def initialize(title)
+    @title = title
+    
   end
 
 end
