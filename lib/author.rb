@@ -12,7 +12,7 @@ class Author
   def self.all
     @@all
   end
-  
+
   def add_post(post)
     # binding.pry
     post.author = self
@@ -29,7 +29,7 @@ class Author
     count = 0
     self.all.each do |authors|
       count += authors.posts.length
-    
+
 
 
 end
