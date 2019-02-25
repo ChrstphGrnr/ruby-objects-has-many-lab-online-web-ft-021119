@@ -9,7 +9,7 @@ class Author
   end
 
   def add_post(post)
-    binding.pry
+    # binding.pry
     post.author = self
     @posts << post
   end
