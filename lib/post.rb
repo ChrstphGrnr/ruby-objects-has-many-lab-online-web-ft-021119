@@ -1,12 +1,12 @@
 require "pry"
 class Post
   attr_accessor :author, :title
-  @all = []
+  @@all = []
 
   def initialize(title)
     @title = title
     # binding.pry
-    self.all << self
+    @@all << self
   end
 
 
