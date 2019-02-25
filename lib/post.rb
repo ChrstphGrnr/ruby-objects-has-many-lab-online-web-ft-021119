@@ -1,4 +1,11 @@
 class Post
-  attr_accessor :name
+  attr_accessor :
+  @all = []
+
+  def self.all 
+    @all
+  end
+
+  def initialize
 
 end
