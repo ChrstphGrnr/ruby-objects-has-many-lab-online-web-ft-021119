@@ -10,7 +10,7 @@ class Author
 
   def add_post(post)
     binding.pry
-    post.name = self
+    post.author = self
   end
 
 end
