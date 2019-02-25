@@ -30,6 +30,9 @@ class Author
     count = 0
     self.all.each do |authors|
       count += authors.posts.length
+    end
+    count
+  end
 
 
 
